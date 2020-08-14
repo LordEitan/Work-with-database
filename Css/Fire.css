@@ -1,0 +1,81 @@
+body, html{
+    height: 850px;
+}
+
+body{
+    background-image: url("../Image/main-background.jpg");
+    background-blend-mode: multiply;
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header #logo span{
+    font-size: 1.7em;
+    line-height: 45px;
+    margin-left: 40px;
+    font-family: 'Audiowide', cursive;
+}
+
+#logo a{
+    text-decoration: none;
+}
+
+#logo span:hover{
+    color: darkorange;
+}
+
+.card{
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 18.8rem;
+}
+
+.card-body{
+    margin-top: -1%;
+    border: 1px solid silver;
+    font-size: 1.3em;
+    height: 180px;
+    color: dodgerblue;
+}
+
+
+.button{
+    border-radius: 5px;
+    background-color: #6f42c1;
+    padding: 5px 9px;
+    font-size: 1.2em;
+    text-shadow: black;
+    cursor: pointer;
+    color: #34ce57;
+    font-family: 'Audiowide', cursive;
+    text-decoration: none;
+}
+
+.new-button{
+    border-radius: 5px;
+    background-color: #6f42c1;
+    padding: 5px 9px;
+    font-size: 1em;
+    text-shadow: black;
+    cursor: pointer;
+    color: #34ce57;
+    font-family: 'Audiowide', cursive;
+    text-decoration: none;
+}
+.new-button:hover{
+    background-color: crimson;
+    color: aqua;
+}
+
+.name-product{
+    color: darkorange;
+}
+
+.new-product{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+

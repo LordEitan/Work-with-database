@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 require_once './services/db_connection.php';
 
